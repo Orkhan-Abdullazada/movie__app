@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './Card'
 
-const Cards = () => {
+const Cards = ({search,setSearch}) => {
   return (
     <div>
-        <Card/>
+        <Card search={search} setSearch={setSearch}/>
     </div>
   )
 }

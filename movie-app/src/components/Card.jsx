@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-const Card = () => {
+const Card = ({search,setSearch}) => {
     const [data,setData]=useState([])
      useEffect(()=>{
-        axios.get(`https://www.omdbapi.com/?s=harry&apikey=6fe78d25`)
+        axios.get(`https://www.omdbapi.com/?s=${search}&apikey=6fe78d25`)
         .then(res=>setData(res.data.Search))
-     },[])
+     },[search])
   return (
     <div className='Cards'>
    
