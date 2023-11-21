@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: blueviolet;
+
+ 
+}
+button{
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+
+
+}
+
+form{
+  background-color: aliceblue;
+  padding: 5px;
+border-radius: 20px;
+
+}
+input{
+  padding: 7px;
+  outline: none;
+  border: none;
+  width: 400px;
+  
+  margin-bottom: 15px;
+  border-radius: 20px;
+
+}
+/* .card__body{
+  width:200px;
+  height:300px;
+ 
+ border: 1px solid black;
+  img{
+  width:100%;
+  height:100%;} */
+    
+  /* } */
+ 
+.Cards{
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+.cart{
+background-color: blueviolet;
+width: 400px;
+height: 620px;
+border-radius: 40px;
+
+}
